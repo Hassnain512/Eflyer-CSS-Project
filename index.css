@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.background {
+  height: 100vh;
+  width: 100 vw;
+  background-image: url(./banner-bg.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  width: 75%;
+  height: 75px;
+  background-color: #433e3e;
+  border-bottom-left-radius: 75px;
+  border-bottom-right-radius: 75px;
+}
+#navtext {
+  color: white;
+  display: flex;
+  margin-top: 22px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+a:hover {
+  color: red;
+}
+#logo {
+  height: 60px;
+}
+h1 {
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+#button1 {
+  background-color: #433e3e;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width: 160px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 5px;
+}
+#button1:hover {
+  background-color: orange;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 100px;
+}
+#category {
+  background-color: #433e3e;
+}
+#searchlogo {
+  width: 52px;
+  height: 52px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+#category1 select {
+  border-radius: 5px;
+  padding: 0px 0px 0px 30px;
+  width: 200px;
+  height: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: bold;
+}
+#category1 select option {
+  font-family: "Times New Roman", Times, serif;
+  background-color: aliceblue;
+  height: 10px;
+  width: 200px;
+  color: #000;
+}
+
+#language1 select {
+  padding: 0px 50px 0px 70px;
+  font-family: "Times New Roman", Times, serif;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: black;
+}
+#language1 select option {
+  font-family: "Times New Roman", Times, serif;
+  width: 200px;
+  height: 50px;
+  color: black;
+  background-color: black;
+}
+
+#spacebar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#spacebar input {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.subHeading {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 20px;
+  font-size: 70px;
+  padding: 10px;
+  margin: 40px;
+}
+
+.shirt1 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shirts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  grid-template-rows: 120 px;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.shirts .box {
+  /* background-color: black; */
+  color: #000;
+  font-size: 3rem;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  padding: 20px;
+  box-shadow: 10px 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+.footer {
+  width: 100vw;
+  height: 500px;
+  background-color: black;
+}
