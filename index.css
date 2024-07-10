@@ -214,9 +214,14 @@ h1 {
 #subscribe {
   margin-left: -90px;
 }
+#loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .loader {
-  margin: 100px auto;
+  margin: 100px;
   height: 150px;
   width: 150px;
   border-radius: 50%;
